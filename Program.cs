@@ -10,7 +10,7 @@ using PdfSharp.Pdf.IO;
 
 namespace PdfSplitter
 {
-    class Program 
+    class Program  
     {
         private static string InputPath => ConfigurationManager.AppSettings.Get("InputPath");
         private static string OutputPath => ConfigurationManager.AppSettings.Get("OutputPath");
