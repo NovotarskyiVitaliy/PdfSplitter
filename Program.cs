@@ -12,7 +12,7 @@ namespace PdfSplitter
 {
     class Program  
     {
-        //** it is for test
+        //** it is for test **
         private static string InputPath => ConfigurationManager.AppSettings.Get("InputPath");
         private static string OutputPath => ConfigurationManager.AppSettings.Get("OutputPath");
 
